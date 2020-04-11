@@ -1,0 +1,23 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+
+body {
+    background-color: tomato;
+}
+
+.test {
+    padding: 0;
+}
+
+.box {
+    padding: 0;
+    transition: all .3s;
+    display: flex;
+}
