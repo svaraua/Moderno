@@ -224,6 +224,9 @@
             font-style: 14px;
         }
     }
+    &-star {
+        font-size: 12px;
+    }
 }
 
 .products__bottom-btn {
@@ -695,7 +698,7 @@
 }
 
 .product-page__aside {
-    .product__item {
+    .product__item-aside {
         box-shadow: none;
         padding-bottom: 30px;
         margin-bottom: 30px;
@@ -933,6 +936,12 @@ button.icon-unsorted {
             margin-left: auto;
             margin-right: 30px;
         }
+    }
+}
+
+.aside__product-item {
+    .product__item list {
+        float: none;
     }
 }
 //end product page
